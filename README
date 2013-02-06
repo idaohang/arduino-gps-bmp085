@@ -1,0 +1,5 @@
+arduino-gps-bmp085
+
+Small arduino code to log positionnal data from two sensors :
+ - GPS (lat long, alt, time, etc.)
+ - BMP085 (pressure, temperature, then altitude)
