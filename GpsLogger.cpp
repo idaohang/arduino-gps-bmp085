@@ -98,6 +98,8 @@ void setup()
     digitalWrite(PIN_LED_GREEN, HIGH);
     digitalWrite(PIN_LED_RED, LOW);
 
+    begin_gps();
+    
     bmp085Data.hpa0 = SEA_LEVEL_PRESSURE;
 
     //BMP Init
